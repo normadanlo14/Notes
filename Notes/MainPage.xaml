@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notes.MainPage">
+
+    <VerticalStackLayout HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+        <Grid RowDefinitions="AUTO,AUTO,AUTO,AUTO"> 
+
+        <Entry Grid.Row="0" Placeholder="Email" HorizontalOptions="FillAndExpand" x:Name="entrymail"/>
+        <Entry  Grid.Row="1" Placeholder="Password" HorizontalOptions="FillAndExpand" x:Name="entrypassword"/>
+        <Button Grid.Row="2" Text="Login" Clicked="Button_Clicked"/>
+        <Button Grid.Row="3" Text="Dont have Account" Clicked="Button_Clicked_1"/>
+
+        </Grid>
+    </VerticalStackLayout>
+
+
+</ContentPage>

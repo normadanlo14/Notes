@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notes.PAGE.CREATEACCOUNT"
+             Title="CREATEACCOUNT">
+    <VerticalStackLayout VerticalOptions="CenterAndExpand" >
+        
+        <Entry Placeholder="Firstname" x:Name="entryfname"/>
+        <Entry Placeholder="Lastname" x:Name="entrylname"/>
+        <Entry Placeholder="Email" x:Name="entryEmail"/>
+        <Entry  Placeholder="Password" x:Name="entrypass" />
+
+        <Entry Placeholder="Title of Note" x:Name="entrytitle"/>
+        <Entry  Placeholder="What is on your mind?" x:Name="entrymessage" />
+
+
+
+        <Button Text="Register" Clicked="Button_Clicked"/>
+        <Button Text="Exit" Clicked="Button_Clicked_1"/>
+    </VerticalStackLayout>
+</ContentPage>
